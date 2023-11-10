@@ -20,7 +20,7 @@ if (alertTrigger) {
 }
 
 // for Collapse
-const collapseElementList = document.querySelectorAll(".collapse-1");
+const collapseElementList = document.getElementsByClassName(".collapse-1");
 const collapseList = [...collapseElementList].map(
   (collapseEl) => new bootstrap.Collapse(collapseEl)
 );
